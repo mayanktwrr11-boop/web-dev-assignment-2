@@ -1,0 +1,127 @@
+/* Simple CSS styling for Portfolio 2 */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #0750ad;
+    color: white;
+    padding: 12px;
+}
+
+header h1 {
+    margin: 0 0 8px;
+    font-size: 24px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 28px 15px;
+    border-bottom: 2px solid #ccc;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+.avatar {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+}
+
+.about p {
+    font-size: 14px;
+}
+
+table {
+    width: 55%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #0750ad;
+    padding: 10px;
+}
+
+th {
+    background-color: #0750ad;
+    color: white;
+}
+
+.project {
+    width: 55%;
+    margin: 12px auto;
+    padding: 18px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+form {
+    width: 55%;
+    margin: 15px auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #888;
+}
+
+textarea {
+    height: 65px;
+}
+
+button, .top-link {
+    background-color: #0750ad;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+footer {
+    background-color: #0750ad;
+    color: white;
+    padding: 12px;
+    margin-top: 15px;
+}
+
+@media (max-width: 600px) {
+    table, .project, form {
+        width: 95%;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 6px;
+    }
+}
